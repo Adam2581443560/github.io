@@ -1,0 +1,243 @@
+html,body,p {
+    padding: 0;
+    margin: 0;
+}
+.new-font {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.bold-text {
+ font-weight: bold ;
+}
+.cyan-text {
+color: rgb(255, 187, 0);
+}
+.cyan-text li a {
+    color:rgb(194, 134, 4);
+}
+.purple{
+background:#123EA6;
+}
+.gray-text{
+color: gray
+}
+.white-text{
+color: white;
+}
+.block1{
+width: 1000px;
+margin: auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.block1.block3{
+padding-top: 0;
+padding-bottom: 10px;
+}
+.nav{
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+font-size: 19px;
+}
+.exp{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.exp li{
+margin: 10px, 0;
+}
+.nav li {
+display: inline;
+margin: 5px;
+padding: 5px;
+cursor: pointer;
+}
+.nav li a{
+text-decoration: none;
+}
+.nav2 li a{
+text-decoration: none;
+color: white;
+display: flex;
+}
+.nav1 {
+padding: 10px;
+margin: 50px;
+display: flex;
+justify-content: space-around;
+}
+.achievemnts {
+list-style: none;
+padding: 0;
+margin: 10px 0;
+column-count: 2;
+}
+.achievemnts li{
+background: url("./galka3.png") no-repeat left center;
+padding-left: 55px;
+margin: 25px 0;
+margin-top: 0;
+}
+.study{
+list-style: none;
+padding: 0;
+margin: 10px 0;
+}
+.study li {
+background: url("./y4.png") no-repeat left center;
+padding-left: 55px;
+margin: 10px 0;
+}
+.logo-img{
+width: 175px;
+border-radius: 50%;
+}
+.name-tag{
+font-size: 25px;
+}
+.paragraph {
+margin: 25px 0;
+font-size: 20px;
+line-height: 35px;
+}
+.study-px{
+font-size: 21px;
+}
+.hands-bg{
+background-image: url("./bg.jpg");
+background-position: center;
+background-size: cover;
+}
+.leftimg {
+float:left; 
+margin: -16px 65px 7px 0; 
+}
+.dog{
+list-style: none;
+padding: 0;
+margin: 10px 0;
+column-count: 2;
+background: url("./dog.png") no-repeat left center;
+padding-left: 55px;
+margin-top: 0;
+
+}
+.telegram{
+list-style: none;
+padding: 0;
+margin: 10px 0;
+column-count: 2;
+background: url("./telegram.png") no-repeat left center;
+padding-left: 55px;
+margin-top: 0;
+}
+.phone{
+list-style: none;
+padding: 0;
+margin: 10px 0;
+column-count: 2;
+background: url("./phone.png") no-repeat left center;
+padding-left: 55px;
+margin-top: 0;
+}
+.vk{
+list-style: none;
+padding: 0;
+margin: 10px 0;
+column-count: 2;
+background: url("./vk.png") no-repeat left center;
+padding-left: 55px;
+margin-top: 0;
+}
+.line{
+line-height: 55px;
+padding-top: 55px;
+padding-bottom: 55px;
+}
+.line p {
+line-height: 35px;
+}
+.hr{
+border-top-width: revert;
+margin: auto;
+}
+.stroke {
+text-shadow: black 0 0 15px;
+}
+.h1{
+font-size: 38px;
+}
+.h2{
+font-size: 34px;
+}
+.h3{
+font-size: 28px;
+}
+.go-to-top{
+display: flex;
+width: 50px;
+}
+#contact-form {
+display: flex;  
+flex-direction: column;
+align-items: flex-end;;
+}
+#contact-form input, #contact-form textarea {
+padding: 20px;
+margin-bottom: 30px;
+font-size: 20px;
+font-weight: bold;
+outline: none;
+width: 954px;
+border: none;
+border: 3px solid #FFEA83 ;
+}
+textarea{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+height: 120px;
+}
+input#submit {
+width: 300px;
+cursor: pointer;
+background: #FFEA83;
+color: #6A13EB;
+font-size: 24px;
+}
+#gotop {
+text-decoration: none;
+display: inline-block;
+height: 74px;
+width: 74px;
+background: #FFEA83;
+color: #6A13EB;
+font-size: 50px;
+text-align: center;
+position: fixed;
+bottom: 147px;
+right: 150px;
+}
+.gradient {
+
+    background: linear-gradient(149deg, rgb(39, 54, 255) 0%, rgb(29, 41, 206) 0%, rgb(83, 11, 97) 42%, rgb(30, 5, 139) 72%);
+    animation: gradient 10s infinite linear;
+    background-size: 400%;
+    
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}
